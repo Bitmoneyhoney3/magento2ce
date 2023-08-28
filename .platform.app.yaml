@@ -14,7 +14,7 @@ type: php:7.4
 # side is in the form `<service name>:<endpoint name>`.
 # More information: https://docs.platform.sh/create-apps/app-reference.html#relationships
 relationships:
-  database: magento_database:mysql
+  database: magento_databased:mysql
   redis: magento_redis:redis
   search: magento_search:opensearch
 
